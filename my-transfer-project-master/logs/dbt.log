@@ -1,0 +1,28 @@
+[0m15:20:01.874252 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000268E61EC970>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000268E69C5420>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000268E8BA02E0>]}
+
+
+============================== 15:20:01.874252 | 60628b90-ce4e-41b9-8b3a-a0fa09f5d25e ==============================
+[0m15:20:01.874252 [info ] [MainThread]: Running with dbt=1.8.5
+[0m15:20:01.874252 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'profiles_dir': 'C:\\Users\\admin\\.dbt', 'log_path': 'logs', 'fail_fast': 'False', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'log_format': 'default', 'static_parser': 'True', 'target_path': 'None', 'invocation_command': 'dbt init refactored_project', 'send_anonymous_usage_stats': 'True'}
+[0m15:20:01.905531 [debug] [MainThread]: Starter project path: C:\Users\admin\AppData\Local\Programs\Python\Python310\lib\site-packages\dbt\include\starter_project
+[0m15:20:01.980437 [info ] [MainThread]: 
+Your new dbt project "refactored_project" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m15:20:01.980437 [info ] [MainThread]: Setting up your profile.
+[0m15:27:45.351461 [info ] [MainThread]: Profile refactored_project written to C:\Users\admin\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m15:27:45.354506 [debug] [MainThread]: Command `dbt init` succeeded at 15:27:45.353461 after 463.57 seconds
+[0m15:27:45.355469 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000268E61EC970>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000268E69C5420>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000268E8B589A0>]}
+[0m15:27:45.356461 [debug] [MainThread]: Flushing usage events

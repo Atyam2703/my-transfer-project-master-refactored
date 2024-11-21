@@ -1,0 +1,36 @@
+[0m15:42:34.624608 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000016FAF958A60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000016FB2287340>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000016FB2287940>]}
+
+
+============================== 15:42:34.624608 | f4e19a74-9687-4bd3-a8e3-79f2304578d5 ==============================
+[0m15:42:34.624608 [info ] [MainThread]: Running with dbt=1.8.5
+[0m15:42:34.640287 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'fail_fast': 'False', 'log_path': 'C:\\Users\\admin\\Downloads\\my-transfer-project-master\\refactored_project\\logs', 'profiles_dir': 'C:\\Users\\admin\\.dbt', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'log_format': 'default', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt test', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m15:42:35.270759 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'f4e19a74-9687-4bd3-a8e3-79f2304578d5', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000016FAFBEDCC0>]}
+[0m15:42:35.329169 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'f4e19a74-9687-4bd3-a8e3-79f2304578d5', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000016FB189C820>]}
+[0m15:42:35.329169 [info ] [MainThread]: Registered adapter: snowflake=1.8.3
+[0m15:42:35.329169 [debug] [MainThread]: checksum: 643640a45b16e0d012867be4ac17daaa0c3ce97300faec3ce9a6de300b5e1c09, vars: {}, profile: , target: , version: 1.8.5
+[0m15:42:35.329169 [info ] [MainThread]: Unable to do partial parsing because saved manifest not found. Starting full parse.
+[0m15:42:35.344190 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': 'f4e19a74-9687-4bd3-a8e3-79f2304578d5', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000016FB3093E50>]}
+[0m15:42:36.483951 [error] [MainThread]: Encountered an error:
+Parsing Error
+  Env var required but not provided: 'DBT_TGT_TABLE_NAME'
+[0m15:42:36.483951 [debug] [MainThread]: Command `dbt test` failed at 15:42:36.483951 after 1.95 seconds
+[0m15:42:36.483951 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000016FAF958A60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000016FB224F310>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000016FB4323460>]}
+[0m15:42:36.483951 [debug] [MainThread]: Flushing usage events
+[0m15:42:57.601619 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000142AF5F8A00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000142B1F6D960>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000142B1F6E9B0>]}
+
+
+============================== 15:42:57.611686 | 26f43ebf-0f63-4464-9bda-b1e69b6bca10 ==============================
+[0m15:42:57.611686 [info ] [MainThread]: Running with dbt=1.8.5
+[0m15:42:57.611686 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\admin\\.dbt', 'debug': 'False', 'warn_error': 'None', 'log_path': 'C:\\Users\\admin\\Downloads\\my-transfer-project-master\\refactored_project\\logs', 'fail_fast': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt docs generate', 'static_parser': 'True', 'introspect': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m15:42:58.167356 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '26f43ebf-0f63-4464-9bda-b1e69b6bca10', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000142AF88DC60>]}
+[0m15:42:58.223713 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '26f43ebf-0f63-4464-9bda-b1e69b6bca10', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000142B2C53CD0>]}
+[0m15:42:58.226248 [info ] [MainThread]: Registered adapter: snowflake=1.8.3
+[0m15:42:58.229169 [debug] [MainThread]: checksum: 643640a45b16e0d012867be4ac17daaa0c3ce97300faec3ce9a6de300b5e1c09, vars: {}, profile: , target: , version: 1.8.5
+[0m15:42:58.229169 [info ] [MainThread]: Unable to do partial parsing because saved manifest not found. Starting full parse.
+[0m15:42:58.229169 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '26f43ebf-0f63-4464-9bda-b1e69b6bca10', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000142B2D52710>]}
+[0m15:42:59.373574 [error] [MainThread]: Encountered an error:
+Parsing Error
+  Env var required but not provided: 'DBT_TGT_TABLE_NAME'
+[0m15:42:59.373574 [debug] [MainThread]: Command `dbt docs generate` failed at 15:42:59.373574 after 1.88 seconds
+[0m15:42:59.373574 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000142AF5F8A00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000142B1DC3A90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000142B3FC75E0>]}
+[0m15:42:59.373574 [debug] [MainThread]: Flushing usage events
